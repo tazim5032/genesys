@@ -2,6 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 import red from "../assets/red.png";
 import white from "../assets/white.png";
 import man from "../assets/man.png";
+import sign from "../assets/sign.png";
 
 const Bannar = () => {
     return (
@@ -12,7 +13,7 @@ const Bannar = () => {
                     <h1 className="text-[34px] lg:text-[70px] text-red-500 font-bold uppercase font-montserrat">Signed <br /> Collection</h1>
                     <button className="bg-white  font-medium lg:px-8 py-2 px-5 rounded flex items-center gap-3 justify-center">SHOP NOW <span className=""><FaArrowRight />
                     </span></button>
-                    <img src="/public/img/pat-signature.png" alt="" className="w-72 lg:w-full"  />
+                    <img src={sign} alt="" className="w-72 lg:w-full"  />
                 </div>
                 <div className="flex flex-col sm:flex-row">
                     <img src={red} alt="" className="lg:w-96 w-36" />

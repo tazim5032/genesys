@@ -5,6 +5,7 @@ import img1 from "../assets/5.png";
 import img2 from "../assets/6.png";
 import img3 from "../assets/7.png";
 import img4 from "../assets/8.png";
+import future from "../assets/future.png";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -21,7 +22,7 @@ const HeaderSlider = () => {
     return (
         <div className=" px-10 lg:px-24 bg-[#EA2127] relative pt-24">
             <div className='absolute lg:left-[60px]'>
-                <img src="/public/img/future_looks_brights.png" alt="" className='w-full' />
+                <img src={future} alt="" className='w-full' />
             </div>
             <div className='pt-24 pb-16'>
 
