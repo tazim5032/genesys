@@ -6,7 +6,7 @@ import img4 from "../assets/4.jpeg";
 
 const Card = () => {
   return (
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 mb-[101px]">
       <div className="max-w-xs p-2 rounded-md shadow-md bg-white">
         <img
           src={img1}
