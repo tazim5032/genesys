@@ -1,14 +1,12 @@
-import React from 'react'
-
+import React from 'react';
+import heading from '../assets/buy.png'
 const CardHeading = () => {
   return (
-    <div className='container mx-auto mt-[101px]'>
-      <h1 className='text-[#060606] text-[70px]'>BUY 1 GET 1 FREE</h1>
-      <h1 className='text-[#060606] text-[70px]'>ON 
-        <span className='uppercase'> best selling products</span>
-      </h1>
+    <div className='container mx-auto mt-8 md:mt-16 lg:mt-[101px]'>
+        <img className='w-[200px] sm:w-auto' src={heading} alt="" />
+
     </div>
-  )
+  );
 }
 
-export default CardHeading
+export default CardHeading;

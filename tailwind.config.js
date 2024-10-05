@@ -5,8 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+        inter: ['Inter']
+      },
+    },
   },
-  plugins: [],
+
+  plugins: [
+    require('daisyui'),
+  ],
 }
 

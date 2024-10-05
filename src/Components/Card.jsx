@@ -14,13 +14,13 @@ const Card = () => {
           className="object-cover object-center w-full rounded-md h-72"
         />
         <div className="mt-2">
-          <h2 className="text-sm font-semibold tracking-wide">
-            Nam maximus purus
+          <h2 className="text-sm font-semibold tracking-wide font-montserrat">
+          Army Green Active Short Sleeve
           </h2>
         </div>
         <div className="flex gap-4">
-          <p className="">$25</p>
-          <p className="line-through">$35</p>
+          <p className="">$ 34.95</p>
+          <p className="text-[#9B9B9B] line-through">$ 34.95</p>
         </div>
       </div>
       <div className="max-w-xs p-2 rounded-md shadow-md bg-white">
@@ -30,13 +30,13 @@ const Card = () => {
           className="object-cover object-center w-full rounded-md h-72"
         />
         <div className="mt-2">
-          <h2 className="text-sm font-semibold tracking-wide">
-            Nam maximus purus
+          <h2 className="text-sm font-semibold tracking-wide font-montserrat">
+            Army Green Active Short Sleeve
           </h2>
         </div>
         <div className="flex gap-4">
-          <p className="">$25</p>
-          <p className="line-through">$35</p>
+          <p className="">$ 34.95</p>
+          <p className="text-[#9B9B9B] line-through">$ 34.95</p>
         </div>
       </div>
       <div className="max-w-xs p-2 rounded-md shadow-md bg-white">
@@ -46,13 +46,13 @@ const Card = () => {
           className="object-cover object-center w-full rounded-md h-72"
         />
         <div className="mt-2">
-          <h2 className="text-sm font-semibold tracking-wide">
-            Nam maximus purus
+          <h2 className="text-sm font-semibold tracking-wide font-montserrat">
+            Army Green Active Short Sleeve
           </h2>
         </div>
         <div className="flex gap-4">
-          <p className="">$25</p>
-          <p className="line-through">$35</p>
+          <p className="">$ 34.95</p>
+          <p className="text-[#9B9B9B] line-through">$ 34.95</p>
         </div>
       </div>
       <div className="max-w-xs p-2 rounded-md shadow-md bg-white">
@@ -62,13 +62,13 @@ const Card = () => {
           className="object-cover object-center w-full rounded-md h-72"
         />
         <div className="mt-2">
-          <h2 className="text-sm font-semibold tracking-wide">
-            Nam maximus purus
+          <h2 className="text-sm font-semibold tracking-wide font-montserrat">
+            Army Green Active Short Sleeve
           </h2>
         </div>
         <div className="flex gap-4">
-          <p className="">$25</p>
-          <p className="line-through">$35</p>
+          <p className="font-montserrat">$ 34.95</p>
+          <p className="text-[#9B9B9B] line-through">$ 34.95</p>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const HeaderSlider = () => {
 
     return (
-        <div className=" px-10 lg:px-24 bg-[#EA2127] relative pt-36">
+        <div className=" px-10 lg:px-24 bg-[#EA2127] relative pt-24">
             <div className='absolute lg:left-[60px]'>
                 <img src="/public/img/future_looks_brights.png" alt="" className='w-full' />
             </div>
