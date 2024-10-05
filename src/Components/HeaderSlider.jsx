@@ -1,7 +1,10 @@
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import img1 from "../assets/5.png";
+import img2 from "../assets/6.png";
+import img3 from "../assets/7.png";
+import img4 from "../assets/8.png";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -51,7 +54,7 @@ const HeaderSlider = () => {
                 >
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (9).png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img1} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -63,7 +66,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img_10.png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img2} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -75,7 +78,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (11).jpeg" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img3} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -87,7 +90,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (11).png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img4} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -99,7 +102,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (11).jpeg" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img3} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -111,7 +114,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (9).png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img1} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -123,7 +126,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img_10.png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img2} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -135,7 +138,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (11).png" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img4} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>
@@ -147,7 +150,7 @@ const HeaderSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=' h-[500px] space-y-5'>
                         <div className='h-[300px]'>
-                            <img src="/public/img/img (11).jpeg" alt="" className='h-[300px] rounded-lg object-cover w-full' />
+                            <img src={img3} alt="" className='h-[300px] rounded-lg object-cover w-full' />
                         </div>
                         <div className='text-white'>
                             <h1>Army Green Active Short Sleeve </h1>

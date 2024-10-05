@@ -1,6 +1,8 @@
 import { FaArrowRight } from "react-icons/fa";
 import red from "../assets/red.png";
 import white from "../assets/white.png";
+import man from "../assets/man.png";
+
 const Bannar = () => {
     return (
         <div className="max-w-[1920px] mx-auto ">
@@ -27,7 +29,7 @@ const Bannar = () => {
                     <h2 className="text-[24px] lg:text-[48px] font-bold text-white uppercase">leaders around the world.</h2>
                 </div>
                 <div className="">
-                    <img src="/public/img/img (5).png" alt="" className="lg:w-[570px] lg:h-[725px] lg:absolute -top-36 right-20" />
+                    <img src={man} alt="" className="lg:w-[570px] lg:h-[725px] lg:absolute -top-36 right-20" />
                 </div>
             </div>
 
